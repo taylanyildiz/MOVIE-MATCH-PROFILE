@@ -20,7 +20,7 @@ class _ButtonNetflixState extends State<ButtonNetflix>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: Duration(milliseconds: 400),
+      duration: Duration(milliseconds: 200),
     );
     _controller2 = AnimationController(
       vsync: this,
@@ -50,11 +50,11 @@ class _ButtonNetflixState extends State<ButtonNetflix>
     return Transform.scale(
       scale: _animation.value,
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 60.0),
+        margin: EdgeInsets.symmetric(horizontal: 40.0),
         padding: EdgeInsets.symmetric(vertical: 4.0, horizontal: 15.0),
         decoration: BoxDecoration(
           color: Colors.red,
-          borderRadius: BorderRadius.circular(30.0),
+          borderRadius: BorderRadius.circular(10.0),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -78,7 +78,7 @@ class _ButtonNetflixState extends State<ButtonNetflix>
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold,
               ),
-            )
+            ),
           ],
         ),
       ),
@@ -98,7 +98,7 @@ class _ButtonNetflixState extends State<ButtonNetflix>
     return GestureDetector(
       onTap: () async {
         await _controller.forward();
-        await _controller.reverse();
+        _controller.reverse();
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
       },

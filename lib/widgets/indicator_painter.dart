@@ -57,7 +57,7 @@ class _IndicatorPainterState extends State<IndicatorPainter>
       setState(() {});
     });
 
-    timer = Timer.periodic(Duration(seconds: 5), (timer) {
+    timer = Timer.periodic(Duration(seconds: 8), (timer) {
       if (pageCount != widget.itemCount - 1) {
         pageCount++;
       } else {
