@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.movie_match_splash_screen">
+    package="com.example.movie_match_profile">
    <application
-        android:label="movie_match_splash_screen"
+        android:label="movie_match_profile"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

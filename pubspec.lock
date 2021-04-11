@@ -62,6 +62,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_cupertino_date_picker:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "38630701b92a4fd0b753f9ab38b3581a5645a629"
+      url: "https://github.com/daveleenew/flutter-cupertino-date-picker.git"
+    source: git
+    version: "1.0.26+2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -151,3 +160,4 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
+  flutter: ">=0.4.1"

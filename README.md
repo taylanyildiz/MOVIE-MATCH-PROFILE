@@ -1,4 +1,4 @@
-# movie_match_splash_screen
+# movie_match_profile
 
 A new Flutter project.
 

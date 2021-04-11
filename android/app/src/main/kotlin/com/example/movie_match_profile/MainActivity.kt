@@ -1,4 +1,4 @@
-package com.example.movie_match_splash_screen
+package com.example.movie_match_profile
 
 import io.flutter.embedding.android.FlutterActivity
 
