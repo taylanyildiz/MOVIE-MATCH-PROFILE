@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_match_profile/widgets/profile_image_widget.dart';
 
 import 'package:movie_match_profile/widgets/widgets.dart';
 
@@ -194,6 +195,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         textInput: false,
         prefer: true,
       ),
+      ProfileImage(),
     ];
     return listProfile;
   }

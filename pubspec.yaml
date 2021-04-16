@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter_cupertino_date_picker:
     git: https://github.com/daveleenew/flutter-cupertino-date-picker.git
+  image_cropper: ^1.4.0
+  image_picker: ^0.7.4
+  select_profile_photo: ^0.1.6
   flutter:
     sdk: flutter
 
